@@ -1,0 +1,56 @@
+body {
+	padding-top: 20px;
+}
+
+ng-hide {
+	display: none;
+}
+
+.loader {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: bold;
+	width: 200px;
+	height: 36px;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#column1 {
+	width : 50%;
+	float : left;
+}
+
+#column2 {
+	width : 50%;
+	float : left;
+}
+#column3 {
+	width : 50%;
+	float : right;
+}
+
+.exClear {
+	clear:both;
+	line-height:0px;
+}
+
+#columnRed {
+	background-color: #d9534f;
+}
+
+#columnGreen {
+	background-color: #5cb85c;
+}
+
+#centerDiv {
+	position: relative
+}
+
+img {
+	border: 2px solid black;
+}

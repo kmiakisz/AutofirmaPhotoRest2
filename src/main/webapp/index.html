@@ -1,0 +1,50 @@
+<html>
+<body>
+<h2>Program pomocniczy Autofirmy</h2>
+<center>
+    <b>Tu nie wrzucamy zdjecia tylko do testow</b>
+    <script src="js/jquery-2.1.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/angular-1.4.7/angular.js"></script>
+    <script src="js/angular-1.4.7/angular-cookies.js"></script>
+    <script src="js/angular-1.4.7/angular-resource.js"></script>
+    <script src="js/angular-1.4.7/angular-route.js"></script>
+    <script src="js/angular-ui-router.js"></script>
+    <script src="js/angular-1.4.7/angular-animate.js"></script>
+    <script src="js/angular-1.4.7/angular-sanitize.js"></script>
+    <script src="js/angular-strap.min.js"></script>
+    <script src="js/angular-strap.tpl.min.js"></script>
+    <script src="js/ocModal.min.js"></script>
+    <script src="js/dropzone/dropzone.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/sb-admin-2.css">
+    <link rel="stylesheet" type="text/css" href="css/ocModal.full.min.css">
+    <link rel="stylesheet" type="text/css" href="css/dropzone/basic.css">
+    <link rel="stylesheet" type="text/css" href="css/dropzone/dropzone.css">
+    <h4>Prosty wrzucacz zdjec</h4>
+
+      <!--  <form method="post" action="rest/fileservice/upload"
+              enctype="multipart/form-data">
+            <table align="center" border="1" bordercolor="black" cellpadding="0"
+                   cellspacing="0">
+                <tr>
+                    <td>Select File 1 :</td>
+                    <td><input type="file" name="uploadFile" size="100" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Upload File" /></td>
+                    <td><input type="reset" value="Reset" /></td>
+                </tr>
+            </table>
+
+        </form>-->
+        <form method="post" action="rest/fileservice/upload" class="dropzone" enctype="multipart/form-data">
+            <div class="fallback">
+                <input name="file" type="file" size="100"/>
+            </div>
+        </form>
+</center>
+</body>
+</html>
